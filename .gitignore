@@ -1,0 +1,24 @@
+#Ignore everything
+*
+
+# Except the .gitignore file itself
+!.gitignore
+
+# Except the src directory
+
+!/src/
+
+# Ignore everything inside src except specific files or folders
+
+!/primitiveConfigurationex1/src/
+!/primitiveMapConfig/src/
+!/SBproperties/src/
+!/springBoot2FirstApp/src/
+
+#ignore specific files and directories
+
+*.class
+pom.xml
+/target/
+/.settings/
+
